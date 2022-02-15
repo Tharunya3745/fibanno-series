@@ -1,0 +1,19 @@
+n=int(input(" ENTER NUMBER;"))  \\Asking input from user\\
+f=0
+s=1
+t=0
+while(t<=n):
+      print(t)
+      f=s
+      s=t
+      t=f+s
+   
+     fibanno series nothing but adding the previous value
+eg: fibanno series {0 1 1 2 3 5 8 13 21 44}
+f=0 s=1
+t=f+s
+  =0+1
+t =1
+ till the loop continues untill th specific condition satisfied   
+   
+ 
